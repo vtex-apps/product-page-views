@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "sessionId": { "type": "string" },
+    "productId": { "type": "string" },
+    "date": { "type": "string" }
+  },
+  "v-default-fields": ["id", "sessionId", "productId", "date"],
+  "required": [ "sessionId", "productId", "date" ],
+  "v-indexed": [ "sessionId", "productId", "date" ],
+  "v-security": {
+    "allowGetAll": true,
+    "publicRead": [ "id", "sessionId", "productId", "date" ],
+    "publicWrite": [ "id", "sessionId", "productId", "date" ],
+    "publicFilter": [ "id", "sessionId", "productId", "date" ]
+  }
+}

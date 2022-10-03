@@ -1,0 +1,4 @@
+{
+  "store/productViews.messagePlural": "This product has been viewed for {views} times",
+  "store/productViews.message": "This product has been viewed for {views} time"
+}

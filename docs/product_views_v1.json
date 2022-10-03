@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "views": { "type": "number" },
+    "productId": { "type": "string" },
+    "date": { "type": "string" }
+  },
+  "v-default-fields": ["id", "views", "productId", "date"],
+  "required": [ "views", "productId", "date" ],
+  "v-indexed": [ "views", "productId", "date" ],
+  "v-security": {
+    "allowGetAll": true,
+    "publicRead": [ "id", "views", "productId", "date" ],
+    "publicWrite": [ "id", "views", "productId", "date" ],
+    "publicFilter": [ "id", "views", "productId", "date" ]
+  }
+}

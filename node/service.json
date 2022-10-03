@@ -1,0 +1,13 @@
+{
+  "memory": 256,
+  "ttl": 10,
+  "timeout": 5000,
+  "minReplicas": 2,
+  "maxReplicas": 4,
+  "routes": {
+    "processViews": {
+      "path": "/page-views/process-views",
+      "public": true
+    }
+  }
+}

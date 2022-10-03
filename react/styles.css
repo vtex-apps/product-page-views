@@ -1,0 +1,9 @@
+.productViewsContainer {
+    display: flex;
+    align-items: center;
+    min-height: 25px;
+}
+
+.productViewsMessage {
+    margin-left: 5px;
+}
